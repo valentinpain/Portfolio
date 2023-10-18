@@ -4,7 +4,6 @@ import { BallCanvas } from "./canvas";
 import { technologies } from "../constants";
 import { motion } from "framer-motion";
 import { fadeIn } from "../utils/motion";
-import SectionWrapper from "../hoc";
 
 const ServiceCard = ({ title, index, icon }) => {
   return (
