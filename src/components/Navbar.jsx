@@ -39,7 +39,7 @@ const Navbar = () => {
           ))}
         </ul>
         <a href="../../Pain_Valentin_CV.pdf" download="Pain_Valentin_CV.pdf">
-          <button className="bg-[#ff0081] xs:text-sm md:text-md xs:text-sm xs:py-3 xs:px-5 lg:py-3 lg:px-8 xs:ml-4 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl">Télécharger le CV</button>
+          <button className="bg-[#ff0081] px-2 md:text-xs xs:text-sm xs:py-2 xs:px-4 lg:py-3 lg:px-8 xs:ml-4 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl">Télécharger le CV</button>
         </a>
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
