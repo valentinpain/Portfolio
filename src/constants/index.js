@@ -15,10 +15,12 @@ import {
   git,
   figma,
   docker,
+  csharp,
   meta,
   starbucks,
   tesla,
   shopify,
+  java,
   carrent,
   jobit,
   tripguide,
@@ -45,19 +47,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Développeur Frontend",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Développeur Backend",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Développeur applicatif",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Apprenti designer",
     icon: creator,
   },
 ];
@@ -96,8 +98,12 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "c#",
+    icon: csharp
+  },
+  {
+    name: "java",
+    icon: java
   },
   {
     name: "git",
@@ -110,7 +116,7 @@ const technologies = [
   {
     name: "docker",
     icon: docker,
-  },
+  }
 ];
 
 const experiences = [

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
@@ -21,7 +20,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <p className="text-white text-[18px] font-bold cursor-pointer flex">
+          <p className="text-white lg:text-[18px] font-bold cursor-pointer flex">
             Valentin &nbsp;{" "}
             <span className="sm:block hidden">| Développeur web et applicatif</span>
           </p>
@@ -39,6 +38,9 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+        <a href="../../Pain_Valentin_CV.pdf" download="Pain_Valentin_CV.pdf">
+          <button className="bg-[#ff0081] md:text-md xs:text-sm xs:py-3 xs:px-5 lg:py-3 lg:px-8 xs:ml-4 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl">Télécharger le CV</button>
+        </a>
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
             src={!toggle ? menu : close}

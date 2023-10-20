@@ -5,22 +5,17 @@ import { technologies } from "../constants";
 import { motion } from "framer-motion";
 import { fadeIn } from "../utils/motion";
 
-const ServiceCard = ({ title, index, icon }) => {
+const TechCard = ({ title, index, icon }) => {
   return (
     <div className="xs:w-[250px] w-full">
       <motion.div
         variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
-        className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
+        className="w-full rounded-[20px] shadow-card"
       >
         <div
-          option={{
-            max: 45,
-            scalse: 1,
-            speed: 450,
-          }}
-          className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
+          className="bg-tertiary rounded-[20px] min-h-[50px] flex justify-evenly items-center flex-col"
         >
-          <img src={icon} alt={title} className="w-16 h-16 object-contain" />
+          <img src={icon} alt={title} className="w-12 h-12 object-contain m-5" />
           <h3 className="text-white text-[20px] font-bold text-center">
             {title}
           </h3>
@@ -35,7 +30,7 @@ const Tech = () => {
     <div className="flex flex-row flex-wrap justify-center gap-10">
       {technologies.map((tech, index) => (
         <div className="w-28 h-28" key={tech.name}>
-          <ServiceCard
+          <TechCard
             key={tech.name}
             icon={tech.icon}
             index={index}
