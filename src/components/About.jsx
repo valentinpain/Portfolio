@@ -43,7 +43,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-      Je suis un développeur de sites web et d'applications logicielles avec de l'expérience et notamment une expertise dans des frameworks 
+      Je suis un développeur de sites web et d'applications bureautiques avec de l'expérience et notamment une expertise dans des frameworks 
       tels que React, Node.js, et Symfony. J'apprends rapidement et je sais collaborer efficacement pour créer des solutions pertinentes, 
       évolutives et conviviales. Travaillons ensemble pour donner vie à vos idées !
       </motion.p>
