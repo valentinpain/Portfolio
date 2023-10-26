@@ -125,7 +125,7 @@ const experiences = [
     company_name: "Thales DIS France",
     icon: thales,
     iconBg: "#28256c",
-    date: "March 2020 - April 2021",
+    date: "Juillet 2022 - Septembre 2023",
     points: [
       "Écriture du cahier des charges complet avec les utilisateurs.",
       "Conception de l’ensemble du site (maquettage et user stories).",
