@@ -31,9 +31,9 @@ import thales from "./company/thales.png"
 import aci from "./company/aci.png"
 import isii_tech from "./company/isii_tech.png"
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import ore from "./ore.png";
+import greenshift from "./greenshift.png";
+import pythonproject from "./pythonproject.png";
 
 export {
   logo,
@@ -64,9 +64,9 @@ export {
   isii_tech,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  ore,
+  greenshift,
+  pythonproject,
   csharp,
   java
 };

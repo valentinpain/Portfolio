@@ -21,9 +21,9 @@ import {
   tesla,
   shopify,
   java,
-  carrent,
-  jobit,
-  tripguide,
+  ore,
+  greenshift,
+  pythonproject,
   threejs,
   thales,
   aci,
@@ -38,11 +38,7 @@ export const navLinks = [
   {
     id: "work",
     title: "Travail",
-  },
-  {
-    id: "contact",
-    title: "Contact",
-  },
+  }
 ];
 
 const services = [
@@ -180,67 +176,59 @@ const experiences = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Green Shift",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Site web créé pour la conférence de présentation de l'association Green Shift, engagée pour l'environnement et le climat.",
     tags: [
       {
-        name: "react",
+        name: "next.js",
         color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
       },
       {
         name: "tailwind",
-        color: "pink-text-gradient",
-      },
+        color: "green-text-gradient",
+      }
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: greenshift,
+    source_code_link: "https://github.com/valentinpain/Greenshift",
   },
   {
-    name: "Job IT",
+    name: "Ore",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Une application bureautique visant à aider tout utilisateur à planifier l'ensemble de ses tâches quotidiennes.",
     tags: [
       {
-        name: "react",
+        name: "C#",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "WPF",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "SQL",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: ore,
+    source_code_link: "https://github.com/valentinpain/Ore",
   },
   {
-    name: "Trip Guide",
+    name: "Folder sorter",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Script permettant de grouper les fichiers d'un même dossier en fonction de leur extension (png, txt, ...).",
     tags: [
       {
-        name: "nextjs",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "script",
         color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      }
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: pythonproject,
+    source_code_link: "https://github.com/valentinpain/Folder-sorter",
   },
 ];
 
