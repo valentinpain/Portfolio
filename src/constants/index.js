@@ -169,7 +169,7 @@ const experiences = [
       "Développement de scripts VBA pour des projets clients.",
       "Développement d’une application en C# pour la gestion automatique des pointages.",
       "Développement d’application simples pour la gestion de divers rappels aux employés avec Microsoft Power Apps.",
-      "Développement de dashboards BI pour des projet clients avec Microsoft Power BI.",
+      "Développement de dashboards BI pour des projets clients avec Microsoft Power BI.",
     ],
   },
 ];
